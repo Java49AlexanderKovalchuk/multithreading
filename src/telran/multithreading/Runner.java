@@ -18,8 +18,9 @@ public void run() {
 		} catch (InterruptedException e) {
 			throw new IllegalStateException();
 		}
-		System.out.println(runnerId);
+//		System.out.println(runnerId);
 	}
-	race.setWinner(runnerId);
+	System.out.println(runnerId);
+	race.setWinner1(runnerId);
 }
 }
