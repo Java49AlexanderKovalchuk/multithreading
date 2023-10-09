@@ -15,10 +15,11 @@ public class Receiver extends Thread {
 			try {
 				String message = messageBox.get();
 				System.out.printf("Thread %d has got message: %s\n", getId(), message);
+				
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}
+			} 
 		}
 	}
 }
